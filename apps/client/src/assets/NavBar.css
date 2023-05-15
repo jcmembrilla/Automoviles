@@ -1,0 +1,29 @@
+.navbar {
+    background-color: #222; /* establecer el fondo */
+    color: #fff; /* establecer el color de fuente */
+    display: flex; /* mostrar los elementos en línea */
+    justify-content: space-between; /* separar los elementos */
+    padding: 10px; /* agregar espaciado interno */
+  }
+  
+  .navbar-nav {
+    display: flex; /* mostrar los elementos en línea */
+    list-style: none; /* quitar los puntos de lista */
+    margin: 0; /* quitar el margen */
+    padding: 0; /* quitar el espaciado */
+  }
+  
+  .nav-item {
+    margin-right: 10px; /* agregar un margen derecho */
+  }
+  
+  .nav-link {
+    color: #fff; /* establecer el color de fuente */
+    text-decoration: none; /* quitar la subrayado de enlace */
+    transition: all 0.3s ease; /* agregar transición suave */
+  }
+  
+  .nav-link:hover {
+    color: #aaa; /* establecer el color de fuente cuando el cursor está encima */
+  }
+  
